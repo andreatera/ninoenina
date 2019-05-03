@@ -1,0 +1,98 @@
+.amatera-rect {
+	width: 150px;
+	height: 200px;
+	border: 1px solid white;
+	display: table;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.amatera-date {
+	font-family: brandon-grotesque, sans-serif;
+	font-size: 7rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+.amatera-savethedate {
+	font-family: brandon-grotesque, sans-serif;
+}
+
+.amatera-giuliaeandrea {
+	font-family: brandon-grotesque, sans-serif;
+}
+
+.rect-scale-in-center {
+	-webkit-animation: scale-in-center 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1s both;
+	animation: scale-in-center 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1s both;
+}
+
+.date-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+}
+
+.savethedate-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+}
+
+.giuliaeandrea-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 4s both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 4s both;
+}
+
+.calendar-scale-in-center {
+	-webkit-animation: scale-in-center 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 5s both;
+	animation: scale-in-center 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 5s both;
+}
+
+@-webkit-keyframes scale-in-center {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+@keyframes scale-in-center {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes text-focus-in {
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+		opacity: 1;
+	}
+}
+@keyframes text-focus-in {
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+		opacity: 1;
+	}
+}
