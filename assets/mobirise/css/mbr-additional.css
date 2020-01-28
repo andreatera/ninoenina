@@ -604,7 +604,7 @@ a.text-white:focus {
 
 a.text-black:hover,
 a.text-black:focus {
-	color: #4d4d4d !important;
+	color: #000000 !important;
 }
 
 .alert-success {
